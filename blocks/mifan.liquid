@@ -1,0 +1,9 @@
+{{ 'mifan.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'mifan.js' | asset_url }}" defer></script>
+{% schema %}
+{
+  "name": "Mifan Apps",
+  "target": "head",
+  "settings": []
+}
+{% endschema %}
